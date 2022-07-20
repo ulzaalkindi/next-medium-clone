@@ -27,7 +27,7 @@ function Post({ post }: Props) {
       body: JSON.stringify(data),
     })
       .then(() => {
-        console.log(data)
+        // console.log(data)
         setSubmitted(true)
       })
       .catch((err) => {
